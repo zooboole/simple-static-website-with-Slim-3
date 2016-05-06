@@ -1,0 +1,60 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+
+<div class="pure-g">
+    <div class="pure-u-1 adsense">
+		<small>Advertisement</small>
+          <div class="ad">
+           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Header-Bottom-Banner -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-5908879638690497"
+                 data-ad-slot="2658449769"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+    </div>
+</div>
+
+<div class="pure-g">
+	<div class="pure-u-3-5">
+		<p><strong>Welcome to Alpha Incorporation Official website</strong></p>
+		<p>
+			Alpha Inc. is a revolutionary company located at the middle of the Silicon Valley.
+		</p>
+		<p>
+			The company was established in 1965 by Don Alphonso Vinci
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nostrum vitae repellat voluptate corporis, quod sed illo expedita, distinctio reprehenderit voluptates ut nam, reiciendis fugiat temporibus vero cumque quia dolores.
+		</p>
+	</div>
+	<div class="pure-u-2-5">
+		<figure>
+			<img src="{{ base_url() }}/img/company.jpg" alt="Alpha Inc." class="pure-img">
+			<figcaption>Alpah Inc. Head Quaters in Silicon Valley</figcaption>
+		</figure>
+	</div>
+</div>
+
+<div class="pure-g">
+	<div class="pure-u-1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis omnis vero voluptas porro, totam culpa vel? Ea velit deleniti debitis voluptas nihil maxime, repudiandae recusandae soluta earum. Porro, perferendis facere.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id labore debitis iste et quos veritatis quo. Facere molestias doloribus, atque molestiae sed ratione ut, iste vitae nobis, saepe asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sunt, alias excepturi qui perspiciatis doloribus fugit quasi laudantium esse quas, magni a optio quidem, vel explicabo dolores ullam assumenda earum!</p>
+	</div>
+</div>
+
+
+<hr>
+
+<aside class="pure-g">
+	<div class="pure-u-1">
+		<p>Contact us today and start business</p>
+		<p><a href="{{ path_for('contact') }}" class="pure-button">Get in touch</a></p>
+	</div>
+</aside>
+
+{% endblock %}
